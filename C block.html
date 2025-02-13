@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Block</title>
+    <link rel="stylesheet" href="external.css">
+    <style>
+        h2 {
+            background-color: red;
+            color: white;
+        }
+
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: black;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 14.5%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: rgb(221, 27, 27);
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: rgba(249, 102, 102, 0.695);
+            color: rgb(184, 8, 8);
+        }
+
+        /* Style the header */
+        header {
+            background-color: white;
+            padding: 0px;
+            height: 180px;
+            
+            overflow:hidden;
+            /* text-align: center; */
+            font-size: 70px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 15%;
+            height: 700px;
+            position: left;
+            /* only for demonstration, should be removed */
+            background: #f8fafa;
+            padding: 2px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+         video {
+        display: block;
+        margin: auto;
+    }
+    </style>
+</head>
+
+<body bgcolor="#DCD3FF">
+
+    <header>
+        <center><img src="header.png" alt="error" height="180" width="1500"></center>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a class="active" href="http://127.0.0.1:5500/1.Menu.html" target="_blank">Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropbtn">Blocks and Buildings</a>
+                  <div class="dropdown-content">
+                    <a href="http://127.0.0.1:5500/A%20Block.html" target="_blank">A Block</a>
+                    <a href="http://127.0.0.1:5500/B%20block.html" target="_blank">B Block</a>
+                    <a href="http://127.0.0.1:5500/C%20block.html" target="_blank">C Block</a>
+                    <a href="http://127.0.0.1:5500/D%20block.html" target="_blank">D Block</a>
+                    <a href="http://127.0.0.1:5500/Architecture%20Building.html" target="_blank">Architecture Building</a>
+                    <a href="http://127.0.0.1:5500/Management%20Building.html" target="_blank">Management Building</a>
+                  </div>
+                </li>
+                <li><a href="http://127.0.0.1:5500/Glimpse%20.html" target="_blank">Glimpse of Campus</a></li>
+                <li><a href="http://127.0.0.1:5500/Other%20Facilties.html" target="_blank">Other Facilities</a></li>
+                <li><a href="http://127.0.0.1:5500/Events.html" target="_blank">Events</a></li>
+                <li><a href="http://127.0.0.1:5500/trial.html" target="_blank">Feedback Form</a></li>
+              </ul>
+        </nav>
+        <div style="margin-left:15%;padding:1px 16px;height:1000px;">
+                <center>
+                    <h1><u>C BLOCK</u></h1>
+                </center><br>
+                <video width="1000" border="3 px" controls>
+                    <br><br><br>
+                    <source src="C blockV.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video><br><br>  
+                <h2>About School of Liberal Arts:</h2>
+                <p>Promoting thorough understanding of Arts, Humanities and Social Sciences in global perspective</p>
+                <p>The Liberal Arts Program at the Sanjay Ghodawat University offers Under Graduate, Post Graduate and Doctoral
+                    programs in English, Economics, Psychology, Sociology and Fine Arts. It offers students the choice of more
+                    than
+                    one subject to study while choosing one major subject of their choice. The student thus gets the unique
+                    opportunity to major in a subject of his liking and also gets the knowledge and expertise of other subject
+                    that
+                    can complement his overall learning and give a holistic approach to the degree</p>
+        
+                <p>The Department of Liberal Arts offers some courses as Core Subjects (Compulsory) in areas that will help him
+                    excel as professional. The other General courses are offered as Elective that the student can select out of
+                    the
+                    given pool of subjects so that his horizons of learning are widened and he gains an all round perspective.
+                    The
+                    student also has to select one Major subject which he/she will specialize in and one minor subject. Thus
+                    Sanjay
+                    Ghodawat University tends to equip the student with not just one specialization but have a multi
+                    specialization
+                    angle to his academic pursuits that helps him/her gain a wider perspective.</p>
+        
+                <p>The innovative teaching - learning methodology will include activities like G.D. Seminars, Case Studies,
+                    Field
+                    Visits, Quiz, Dramatics etc to involve the students wholly in the learning process and help them develop a
+                    solution oriented thought process to the challenges of the 21st Century. The correlation of different areas
+                    including politics, culture, historic and economics will better prepare the graduate to approach the world
+                    with
+                    better understanding. SGU believes in preparing students to apply their learning in the field and not just
+                    have
+                    rote learning and thus the School of Liberal Arts has designed and developed courses that can become a life
+                    changing opportunity for the students.</p><br>
+        
+                <b>OBJECTIVES :</b>
+                
+                    <li>To promote creative and critical thinking</li>
+                    <li>To inculcate global and local values among students</li>
+                    <li>To contribute towards knowledge generation and dissemination</li>
+                    <li>To equip students with knowledge, skills, and attitude to meet the heterogeneous needs of the society
+                    </li>
+                    <li>To provide facilities and training for development of research knowledge, skills and attitude among
+                        students and
+                        prepare them to undertake research in the field of Arts, Humanities and Social Sciences</li>
+                    <li>To enhance employability and contribute to human resource development</li>
+               
+         <br>
+        </div>
+</body>
+</html>

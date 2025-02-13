@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="external.css">
+
+    <style>
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: black;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 14.5%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: rgb(221, 27, 27);
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: rgba(249, 102, 102, 0.695);
+            color: rgb(184, 8, 8);
+        }
+
+        /* Style the header */
+        header {
+            background-color: white;
+            padding: 0px;
+            height: 180px;
+            /* text-align: center; */
+            font-size: 70px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 15%;
+            height: 700px;
+            /* only for demonstration, should be removed */
+            background: #f8fafa;
+            padding: 2px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .column {
+            float: left;
+            width: 31.33%;
+            padding: 10px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+<body bgcolor="#DCD3FF">
+    <header>
+        <center><img src="header.png" alt="error" height="180" width="1500"></center>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a class="active" href="http://127.0.0.1:5500/1.Menu.html" target="_blank">Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropbtn">Blocks and Buildings</a>
+                  <div class="dropdown-content">
+                    <a href="http://127.0.0.1:5500/A%20Block.html" target="_blank">A Block</a>
+                    <a href="http://127.0.0.1:5500/B%20block.html" target="_blank">B Block</a>
+                    <a href="http://127.0.0.1:5500/C%20block.html" target="_blank">C Block</a>
+                    <a href="http://127.0.0.1:5500/D%20block.html" target="_blank">D Block</a>
+                    <a href="http://127.0.0.1:5500/Architecture%20Building.html" target="_blank">Architecture Building</a>
+                    <a href="http://127.0.0.1:5500/Management%20Building.html" target="_blank">Management Building</a>
+                  </div>
+                </li>
+                <li><a href="http://127.0.0.1:5500/Glimpse%20.html" target="_blank">Glimpse of Campus</a></li>
+                <li><a href="http://127.0.0.1:5500/Other%20Facilties.html" target="_blank">Other Facilities</a></li>
+                <li><a href="http://127.0.0.1:5500/Events.html" target="_blank">Events</a></li>
+                <li><a href="http://127.0.0.1:5500/trial.html" target="_blank">Feedback Form</a></li>
+              </ul>
+        </nav>
+
+        <div style="margin-left:15%;padding:1px 16px;height:1000px;">
+            <h1 align="center"><u>Events</u></h1>
+
+            <h2>Celebrities</h2>
+            <center> <video height="700" width="1100" border="4 px" controls>
+                    
+                    <source src="Celebrities.mp4" type="video/mp4">
+                    Your browser does not support HTML video.
+                </video> <br><br></center>
+
+            <h2>Events</h2>
+
+            <div class="row">
+                <div class="column">
+                    <h3><u>Gathering Sports</u></h3>
+                    <video height="550" border="3 px" controls>
+                        <br><br><br>
+                        <source src="Gathering Sports.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+
+                <div class="column">
+                    <h3><u>Umang</u></h3>
+                    <video height="550" border="3 px" controls>
+                        <br><br><br>
+                        <source src="Umang.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+
+                <div class="column">
+                    <h3><u>Vibrant</u></h3>
+                    <video height="550" border="3 px" controls>
+                        <br><br><br>
+                        <source src="Vibrant.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div> <br><br>
+
+                <div class="column">
+                    <h4><u>DJ Night</u></h4>
+                    <video height="550" border="3 px" controls>
+                        <source src="DJ.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <h3><u>Convocation Day</u></h3>
+                        <video height="550" border="3 px" controls>
+                            <br><br><br>
+                            <source src="Convocation Day.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+
+
+                    <div class="column">
+                        <h3><u>Trek</u></h3>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="trek2.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <h3><u>Trip</u></h3>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="Dandeli Trip.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+
+                    <div class="column">
+                        <h3><u>Teachers Day</u></h3>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="Teacher's Day.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+
+                    <div class="column">
+                        <h3><u>Dahi Handi Event</u></h3>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="Dahi Handi.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+                </div><br>
+
+                <div class="row">
+                    <div class="column">
+                        <h3><u>Ganesh Chaturthi</u></h3>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="Ganpati.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+
+                    <div class="column">
+                        <h3><u>Techno-Feel-Yaa</u></h3>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="TechnoFeelYaa.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+
+                    <div class="column">
+                        <h3>Music Event</h3>
+                        <video height="550" border="4 px" controls>
+                            <source src="Music .mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3><u>Flavour Fiesta</u></h3>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="Flavour fiest.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+
+                    <div class="column">
+                        <h3><u>Sports Day</u></h3>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="Sports Day.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+
+                    <div class="column">
+                        <br><br><br>
+                        <video height="550" border="4 px" controls>
+                            <source src="Sports day1.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <h3><u>Industrial Visits</u></h3>
+                        <h4>Industrial Visit of BBA to Amul - Gujarat</h4>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="Industrial Visit Amul.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+
+                    <div class="column">
+                        <br><br>
+                        <h4>Industrial Visit of Aerospace Engineering</h4>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="Industrial visit Aero.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+
+                    <div class="column">
+                        <h3><u>Educational Tour</u></h3>
+                        <h4>Immersion program - Dubai</h4>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="Dubai.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column">
+                        <h3><u>Garba Taali</u></h3>
+                        <video height="550" border="4 px" controls>
+                            <br><br><br>
+                            <source src="Garba Taali.mp4" type="video/mp4">
+                            Your browser does not support HTML video.
+                        </video> <br><br>
+                    </div>
+                </div>
+</body>
+
+</html>

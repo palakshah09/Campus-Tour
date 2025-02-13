@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Building</title>
+    <link rel="stylesheet" href="external.css">
+    <style>
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: black;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 14.5%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: rgb(221, 27, 27);
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: rgba(249, 102, 102, 0.695);
+            color: rgb(184, 8, 8);
+        }
+
+        /* Style the header */
+        header {
+            background-color: white;
+            padding: 0px;
+            height: 180px;
+            /* text-align: center; */
+            font-size: 70px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 15%;
+            height: 700px;
+            /* only for demonstration, should be removed */
+            background: #f8fafa;
+            padding: 2px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 85%;
+            background-color: #f1f1f1;
+            background-image: url('sgu2.jpg');
+            height: 700px;
+            /* only for demonstration, should be removed */
+            font-size: 25px;
+        }
+
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+
+            }
+        }
+    </style>
+</head>
+
+<body bgcolor="#DCD3FF">
+
+
+    <header>
+        <center><img src="header.png" alt="error" height="180" width="1500"></center>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a class="active" href="http://127.0.0.1:5500/1.Menu.html" target="_blank">Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropbtn">Blocks and Buildings</a>
+                  <div class="dropdown-content">
+                    <a href="http://127.0.0.1:5500/A%20Block.html" target="_blank">A Block</a>
+                    <a href="http://127.0.0.1:5500/B%20block.html" target="_blank">B Block</a>
+                    <a href="http://127.0.0.1:5500/C%20block.html" target="_blank">C Block</a>
+                    <a href="http://127.0.0.1:5500/D%20block.html" target="_blank">D Block</a>
+                    <a href="http://127.0.0.1:5500/Architecture%20Building.html" target="_blank">Architecture Building</a>
+                    <a href="http://127.0.0.1:5500/Management%20Building.html" target="_blank">Management Building</a>
+                  </div>
+                </li>
+                <li><a href="http://127.0.0.1:5500/Glimpse%20.html" target="_blank">Glimpse of Campus</a></li>
+                <li><a href="http://127.0.0.1:5500/Other%20Facilties.html" target="_blank">Other Facilities</a></li>
+                <li><a href="http://127.0.0.1:5500/Events.html" target="_blank">Events</a></li>
+                <li><a href="http://127.0.0.1:5500/trial.html" target="_blank">Feedback Form</a></li>
+              </ul>
+
+        </nav>
+        <div style="margin-left:15%;padding:1px 16px;height:1000px;">
+        <center>
+            <h1><u>PHARMACY BUILDING</u></h1>
+        </center>
+        <br>
+        <h2>About Pharmacy and Pharmacist</h2>
+
+        <p>It is a versatile, dynamic , growing and increasingly diverse profession. It is an age old profession which
+            has
+            transformed into a hub for "Global Healthcare" and evolved as a multidisciplinary and multifaceted field in
+            recent
+            times. The increasing rate of advance pharmaceutical industry, the health sector has thrown away
+            opportunities
+            for
+            pharmacy professionals.
+
+            It is the science and technique of preparing, dispensing and review of drugs and providing additional
+            clinical
+            services. It is a health profession that links health sciences and pharmaceutical sciences and aims to
+            ensure
+            the
+            safe effective and affordable use of drugs.
+
+            Pharmacist is also known as Chemists or Druggists .They are health professionals who practice in pharmacy,
+            the
+            field
+            of health sciences focusing on safe and effective medicine use. Pharmacists undergo university-level
+            education
+            to
+            understand the biochemical mechanisms and action of drugs, drug uses, therapeutic roles, side effects,
+            potential
+            drug interactions and monitoring parameters.</p>
+
+        <h2>Programmes Offered</h2>
+        <table style="width:100%" id="miyazaki">
+
+            <thead style="text-align:left;">
+                <tr>
+            <tbody>
+
+                <td><strong>D. Pharmacy</strong>
+                <td>Duration - 2 Years
+                <td>Intake - 60
+                    <tr>
+
+                        <td><strong>B. Pharmacy</strong>
+                        <td>Duration - 4 Years
+                        <td>Intake - 100
+                    <tr>
+
+                    </tr>
+        </table> <br>
+
+        <h2>Approvals</h2>
+        
+            <li>Approved By Pharmacy Council of India, New Delhi
+
+            <li>Approved By Government Of Maharashtra, Mumbai</li>
+            <li>Affiliated to Sanjay Ghodawat University, Kolhapur</li>
+            <li>Examination authority Sanjay Ghodawat University, Kolhapur</li>
+        <br>
+
+        <h2>Eligibility for Admission</h2>
+
+        <b>Diploma in Pharmacy (D. Pharmacy)</b>
+        <ul>
+            <li>Passed 10+2/HSC Examination in Science of any recognized board with Physics, Chemistry As Compulsory
+                subject
+                along with one of the subject Mathematics or Biology</li>
+            <li>Any Other Qualification approved by the Pharmacy Council of India as equivalent to any of the above
+                Examination</li>
+        </ul>
+
+        <b>Bachelor of Pharmacy (B. Pharmacy) - First Year</b>
+        <ul>
+            <li>Passed 10+2 / HSC Examination in Science of any recognized board with Physics, Chemistry As Compulsory
+                subject along with one of the subject Mathematics or Biology in the above subjects taken together</li>
+            <li>Should have appeared in all the subjects and should obtain non zero score in CET conducted by the
+                Competent Authority.
+                OR
+                Non zero score in CET conducted by the Sanjay Ghodawat University, Kolhapur</li>
+            <li>Any Other Qualification approved by the Pharmacy Council of India as equivalent to any of the above
+                Examination.</li>
+        </ul>
+
+        <b>Bachelor of Pharmacy (B. Pharmacy) - Direct Second Year</b>
+        <ul>
+            <li>A pass in D.Pharm course from an institution approved by the Pharmacy Council of India under section 12
+                of Pharmacy Act.</li>
+        </ul>
+
+        <h2>Job Opportunities in Pharmacy</h2>
+
+
+        <b>A) Health Care Services :</b>
+        <ul>
+            <li>Community or Entrepreneur - Wholesaler or Retailer chemist and druggist. To establish own pharmaceutical
+                industry.</li>
+            <li>Hospital or Clinic - Dispensing the drug and medicine and supervising the hospital</li>
+            <li>Laboratory technician / Assistant</li>
+        </ul><br>
+
+        <b> B) Government Job :</b>
+        <ul>
+            <li>As a pharmacist in Government Hospital</li>
+            <li>Food and Drug inspector</li>
+            <li>As a graduate - Illegible to all MPSC OR UPSC examination</li>
+        </ul><br>
+
+        <b>C) Higher Education :</b>
+        <ul>
+            <li>To become post graduate in M. Pharm. L.L.B., M.B.A., M.S., etc</li>
+            <li>Research Activity</li>
+            <li>Clinical Research</li>
+            <li>As a teacher- Professor/Associate Professor/Assistant Professor</li>
+        </ul><br>
+
+        <b>D) Industry :</b>
+        <ul>
+            <li>Production - In Bulk drugs, Fine drugs, and Formulation</li>
+            <li>Quality control and assurance</li>
+            <li>Packaging and Repackaging</li>
+            <li>Sales and Marketing</li>
+        </ul><br>
+
+
+        <h2>Salient Features</h2>
+        
+            <li>Environment friendly world - class infrastructure</li>
+            <li>Value based quality education with societal concern</li>
+            <li>Flexible Choice based Credit System</li>
+            <li>Collaborative Inter - Disciplinary Research</li>
+            <li>Support for Industrial Training</li>
+            <li>Support for Placement & Entrepreneurship</li>
+            <li>International Transfer Program</li>
+            <li>Well equipped laboratories and Computer Lab</li>
+            <li>A state of art Library</li>
+        
+
+    </div>
+</body>
+
+</html>

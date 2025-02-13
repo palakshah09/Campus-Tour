@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B Block</title>
+    <link rel="stylesheet" href="external.css">
+
+    <style>
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: black;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 14.5%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+            background-color: rgb(221, 27, 27);
+            color: white;
+        }
+
+        li a:hover:not(.active) {
+            background-color: rgba(249, 102, 102, 0.695);
+            color: rgb(184, 8, 8);
+        }
+
+        /* Style the header */
+        header {
+            background-color: white;
+            padding: 0px;
+            height: 180px;
+            /* text-align: center; */
+            font-size: 70px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 15%;
+            height: 700px;
+            /* only for demonstration, should be removed */
+            background: #f8fafa;
+            padding: 2px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        video{
+            display: block;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body bgcolor="#DCD3FF">
+    <header>
+        <center><img src="header.png" alt="error" height="180" width="1500"></center>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a class="active" href="http://127.0.0.1:5500/1.Menu.html" target="_blank">Home</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropbtn">Blocks and Buildings</a>
+                  <div class="dropdown-content">
+                    <a href="http://127.0.0.1:5500/A%20Block.html" target="_blank">A Block</a>
+                    <a href="http://127.0.0.1:5500/B%20block.html" target="_blank">B Block</a>
+                    <a href="http://127.0.0.1:5500/C%20block.html" target="_blank">C Block</a>
+                    <a href="http://127.0.0.1:5500/D%20block.html" target="_blank">D Block</a>
+                    <a href="http://127.0.0.1:5500/Architecture%20Building.html" target="_blank">Architecture Building</a>
+                    <a href="http://127.0.0.1:5500/Management%20Building.html" target="_blank">Management Building</a>
+                  </div>
+                </li>
+                <li><a href="http://127.0.0.1:5500/Glimpse%20.html" target="_blank">Glimpse of Campus</a></li>
+                <li><a href="http://127.0.0.1:5500/Other%20Facilties.html" target="_blank">Other Facilities</a></li>
+                <li><a href="http://127.0.0.1:5500/Events.html" target="_blank">Events</a></li>
+                <li><a href="http://127.0.0.1:5500/trial.html" target="_blank">Feedback Form</a></li>
+              </ul>
+        </nav>
+
+        <div style="margin-left:15%;padding:1px 16px;height:1000px;">
+            <h1 align="center"><u>B BLOCK</u></h1>
+            <video width="1000" border="3 px" controls>
+                <br><br><br>
+                <source src="B blockV.mp4" type="video/mp4">
+                
+                Your browser does not support HTML video.
+            </video><br><br>
+            <ol>
+                <h2>Courses available in B Block:</h2>
+                <b>
+                    <li>BCA</li>
+                    <li>MCA</li>
+                    <li>CSE</li>
+                    <li>BTech in AIML</li>
+                    <li>MTech</li>
+                </b>
+
+                <div class="" style="margin-top:25px; margin-bottom:5px;"></div>
+                <div>
+                    <h2>1. BCA Department:</h2>
+                    <b> About the Programme:</b>
+                    <p> Bachelor in Computer Application (B.C.A.) is an undergraduate degree course in computer
+                        applications. Day by day the demand for computer professionals is rapidly growing in the IT industry in India. This
+                        increasing demand growth of the IT industry has created a lot of opportunities for computer graduates as the
+                        application developer, web developer, mobile app developer, etc.
+
+                        Bachelor in Computer Application (B.C.A.) is one of the popular courses to make a career in the IT (Information
+                        Technology) field for the students. The duration of the course is 3 years and divided into 6 semesters.
+                        It comprises of the subjects like a relational database, networking, data structure, core programming
+                        languages like ‘C’, ‘C++’, ‘Java’, and ‘Python’. It also includes Andriod development for mobile app
+                        development. This course provides a lot of opportunities for students who are interested in the computer field and
+                        wants to work in the IT sector as a programmer or software developer. Also after completion of this course
+                        student may go for higher studies like M.C.A., M.S., M.Sc., etc.</p>
+                    <br>
+                    <b><u>Curriculum :</u></b><br>
+                    <b>First Year Odd Semester:</b>
+                    <ol>
+                        <li>Communication Skills</li>
+                        <li>Problem Solving Using C</li>
+                        <li> Operating System</li>
+                        <li>Applied Mathematics</li>
+                        <li>Data Communication</li>
+                        <li>Problem Solving Using C Lab</li>
+                        <li>Linux Operating System Lab</li>
+                    </ol>
+                    <br>
+                    <b>First Year Even Semester:</b>
+                    <ol>
+                        <li>Environmental Science
+                        </li>
+                        <li>Data Structure
+                        </li>
+                        <li> OOPS Using C++
+                        </li>
+                        <li> Software Engineering
+                        </li>
+                        <li>Computer Network
+                        </li>
+                        <li> OOPS Using C++ Lab
+                        </li>
+                        <li> Data Structure Lab
+                        </li></ol>
+                    <br>
+                    <b>Second Year Odd Semester:</b>
+                    <ol>
+                        <li>IT Project Management
+                        </li>
+                        <li> Relational Data Management System</li>
+                        <li> Programming using Java</li>
+                        <li> Design and Implementation of Algorithms</li>
+                        <li>Software Quality Assurance And Testing</li>
+                        <li> Java Programming LAB
+                        </li>
+                        <li>Relational Data Management System with MySQL LAB</li>
+                    </ol><br>
+                    <b> Second Year Even Semester:</b><br>
+                    <ol>
+                        <li> Web Technology
+                        </li>
+                        <li> Programming with Python</li>
+                        <li> Computer Graphics
+                        </li>
+                        <li> Theory of Computation</li>
+                        <li> Unstructured Database</li>
+                        <li> Python Programming Lab</li>
+                        <li> Web Technology Lab
+                        </li>
+                    </ol><br>
+                    <b> Third Year Odd Semester:</b><br>
+                    <ol>
+                        <li> C# Programming
+                        </li>
+                        <li> Mobile Application Development</li>
+                        <li> Elective - I</li>
+                        <li> E-Commerce Technology </li>
+                        <li> C# Programming Lab </li>
+                        <li> Mobile Application Development Lab</li>
+                        <li> Major Project Phase -I</li>
+                    </ol>
+                    <br>
+                    <b>Third Year Even Semester:</b>
+                    <br>
+                    <ol>
+                        <li> Data Science</li>
+                        <li> Advance Web Development</li>
+                        <li> Elective - II
+                        </li>
+                        <li> Data Science Lab
+                        </li>
+                        <li> Advance Web Lab
+                        </li>
+                        <li> Major Project Phase -II</li>
+                    </ol>
+                </div>
+                <div>
+                    <h2>2. MCA Department:</h2>
+                    <b> About the Programme:</b>
+
+                    <p>Master of Computer Applications (M. C. A.) is a two-year (four semesters) professional Master's
+                        Degree in
+                        computer science and application. The course was designed to meet the growing demand for
+                        qualified
+                        professionals in the field of Information Technology. It is a postgraduate course that can be
+                        taken
+                        up
+                        after obtaining any Bachelor's Degree. The MCA program is inclined more toward Application
+                        Development
+                        and thus has more emphasis on the latest programming language and tools to develop better and
+                        faster
+                        applications.
+
+                        It covers various aspects of computational theory, programming, algorithm design and
+                        optimization,
+                        network and relational database management, mobile technologies, and the latest subjects like
+                        data
+                        science, machine learning, etc.
+
+                        The MCA program prepares students to take up positions as system analysts, systems designers,
+                        data
+                        analysts, data scientist, web developer, Mobile app developer, programmers, and managers in any
+                        field
+                        related to information technology. The program, therefore, aims at imparting comprehensive
+                        knowledge
+                        with equal emphasis on theory and practice.
+
+                        After the completion of the course student may go for higher studies like Ph. D.</p>
+
+                    <b><u>Curriculum :</u></b>
+                    <br>
+                    <b>First Year Odd Semester:</b>
+                    <ol>
+                        <li>Computational Mathematics</li>
+                        <li> Relational Database Management System</li>
+                        <li> Operating System</li>
+                        <li> Software Engineering & Project Management</li>
+                        <li> Java Programming</li>
+                        <li> Java Programming Lab</li>
+                        <li> RDBMS Lab</li>
+                        <li> Soft skill and Personality Development</li>
+                    </ol> <br>
+                    <b> First Year Even Semester:</b>
+                    <ol>
+                        <li> Data Analytics</li>
+                        <li> Data Structures and Algorithms</li>
+                        <li>Program Elective I</li>
+                        <li> Web Technologies</li>
+                        <li> Python Programming</li>
+                        <li> Data Structures and Algorithms Lab using Python</li>
+                        <li> Web Technologies Lab</li>
+                        <li> Soft skill and Personality Development</li>
+                    </ol> <br>
+                    <b> Second Year Odd Semester:</b>
+                    <ol>
+                        <li> Computer Networks & Security</li>
+                        <li> Machine Learning</li>
+                        <li> Program Elective II</li>
+                        <li> Mobile Application Development</li>
+                        <li> Software Quality Assurance And Testing</li>
+                        <li> Machine Learning Lab</li>
+                        <li> Mobile Application Development Lab</li>
+                        <li> Internship Presentation</li>
+                    </ol> <br>
+                    <b> Second Year Even Semester:</b>
+                    <ol>
+                        <li> .NET Programming</li>
+                        <li> A.I and Applications</li>
+                        <li> Program Elective III</li>
+                        <li> Advanced Web Technology</li>
+                        <li> A.I and Applications Lab</li>
+                        <li> Advanced Web Technology Lab</li>
+                        <li> Project
+                    </ol>
+                </div>
+                <div>
+                    <h2>3. CSE Department</h2>
+                </div>
+                <b>Department Of Computer Science and Engineering</b>
+                <p> Computer Science and Engineering Department is established & approved by AICET, New Delhi in the
+                    year
+                    2009-10, with an aim of building creative IT professionals to acquire core knowledge and skills
+                    required
+                    by
+                    IT industry or research institutes to meet global challenges.
+
+                    The courses are taught by the industry experts, experienced, qualified faculty and the global
+                    researchers.
+                    The laboratories are set up with open source softwares, high configuration computer systems for
+                    technical
+                    training and research work. Regular knowledge sharing sessions are conducted by experts and alumni
+                    to
+                    keep
+                    up with the rapidly evolving technology.
+                </p>
+                <b>Programme Offered:-</b> <br><br>
+
+                    <b>UG Programme:</b>
+
+                    B.Tech in Computer Science & Engineering<br>
+                    <b>PG Programme:</b>
+                    M.Tech in Computer Science & Engineering<br>
+
+                    <b>Ph.D.:</b>
+                     Ph. D in Computer Science & Engineering
+                
+                </p><br>
+
+
+        </div>
+</body>
+
+</html>

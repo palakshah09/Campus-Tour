@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    li a,
+    .dropbtn {
+      display: inline-block;
+      color: black;
+      text-align: left;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+
+    li.dropdown {
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background-image: url('sgu2.jpg');
+      background-size: 1550px 920px;
+      box-sizing: border-box;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 15%;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+    }
+
+    li a {
+      display: block;
+      color: #000;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    li a.active {
+      background-color: rgb(221, 27, 27);
+      color: white;
+    }
+
+    li a:hover:not(.active) {
+      background-color: rgba(249, 102, 102, 0.695);
+      color: rgb(184, 8, 8);
+    }
+
+    /* Style the header */
+    header {
+      background-color: white;
+      padding: 8px;
+      height: 200px;
+      /* text-align: center; */
+      font-size: 70px;
+      color: white;
+    }
+
+    /* Create two columns/boxes that floats next to each other */
+    nav {
+      float: left;
+      width: 15%;
+      height: 700px;
+      /* only for demonstration, should be removed */
+      background: #f8fafa;
+      padding: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <center><img src="header.png" alt="error" height="180" width="1500"></center>
+  </header>
+
+  <section>
+    <nav>
+      <ul>
+        <li><a class="active" href="http://127.0.0.1:5500/1.Menu.html" target="_blank">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Blocks and Buildings</a>
+          <div class="dropdown-content">
+            <a href="http://127.0.0.1:5500/A%20Block.html" target="_blank">A Block</a>
+            <a href="http://127.0.0.1:5500/B%20block.html" target="_blank">B Block</a>
+            <a href="http://127.0.0.1:5500/C%20block.html" target="_blank">C Block</a>
+            <a href="http://127.0.0.1:5500/D%20block.html" target="_blank">D Block</a>
+            <a href="http://127.0.0.1:5500/Architecture%20Building.html" target="_blank">Architecture Building</a>
+            <a href="http://127.0.0.1:5500/Management%20Building.html" target="_blank">Management Building</a>
+          </div>
+        </li>
+        <li><a href="http://127.0.0.1:5500/Glimpse%20.html" target="_blank">Glimpse of Campus</a></li>
+        <li><a href="http://127.0.0.1:5500/Other%20Facilties.html" target="_blank">Other Facilities</a></li>
+        <li><a href="http://127.0.0.1:5500/Events.html" target="_blank">Events</a></li>
+        <li><a href="http://127.0.0.1:5500/trial.html" target="_blank">Feedback Form</a></li>
+      </ul>
+    </nav>
+  </section>
+</body>
+</html>
